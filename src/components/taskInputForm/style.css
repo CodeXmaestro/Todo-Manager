@@ -1,0 +1,54 @@
+.form {
+
+    padding: 1em;
+    background: rgb(24, 24, 24);
+    align-content: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr 2fr;
+  
+}
+
+.form > i {
+
+    padding: 6px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px 0 0 4px;
+
+}
+
+.form > input {
+
+    padding: 8px;
+    background: rgb(44, 0, 0);
+    border: 2px solid rgb(44, 0, 0);
+    border-left: none;
+    border-right: none;
+    outline: none;
+    
+}.form > input:focus {
+    
+    border-color: red;
+
+}
+
+.form > button {
+
+    padding: 10px;
+    background: red;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+
+}.form > button:hover {
+
+    background: rgb(255, 59, 59);
+
+}.form > button:active {
+
+    opacity: 0.8;
+
+}

@@ -1,0 +1,53 @@
+.list-item {
+    
+    padding: 8px;
+    border-radius: 2px;
+    display: grid;
+    column-gap: 6px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 8fr 1fr 1fr;
+    
+}.list-item:hover {
+
+    background: rgb(68, 68, 68);
+
+}
+
+.list-item > input[type="checkbox"] {
+
+    scale: 0.8;
+
+}.list-item > input[type="checkbox"]:checked + label {
+
+    opacity: 0.5;
+    text-decoration: line-through;
+
+}
+
+.list-item > form > input {
+
+    padding: 4px;
+    padding-left: 8px;
+
+}
+
+.list-item > label {
+
+    text-align: start;
+    align-content: center;
+
+}
+
+.list-item > button {
+
+    aspect-ratio: 1/1;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}.list-item > button:hover {
+
+    background: rgb(115, 115, 115);
+
+}
